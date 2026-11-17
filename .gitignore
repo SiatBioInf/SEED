@@ -1,0 +1,27 @@
+# R session and project files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Large input data files
+data/*.h5ad
+data/*.h5seurat
+data/*.rds
+data/*.RDS
+data/*.gz
+data/score_gene/
+
+# Analysis outputs
+outputs/*
+!outputs/README.md
+
+# Temporary files
+*.tmp
+*.log
+*.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
